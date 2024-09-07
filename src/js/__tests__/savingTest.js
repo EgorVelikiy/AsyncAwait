@@ -1,4 +1,4 @@
-import GameSavingLoader from '../gamesaving.js'
+import GameSavingLoader from '../app.js'
 
 test('Check result', async() => {
 	const save = await GameSavingLoader.load();
